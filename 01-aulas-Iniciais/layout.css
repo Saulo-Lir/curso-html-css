@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;   
+}
+
+.div{
+    width:100%;
+    height:100px;
+    background-color:green;
+}
+
+.menu{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+
+.conteudo{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    float:right;
+    border: 15px dotted green;
+    border-radius: 250px;
+}
+
+.teste{
+    background-color: yellow;
+}
+
+
+.texto{
+   /* Essas propriedades serão aplicadas na div */ 
+    width:300px;
+    height:200px;
+    background-color:#C0C0C0;
+    /* Essas propriedades serão aplicadas na div */
+    
+    /* Essas propriedades serão aplicadas no texto */
+    color: green;
+    font-size: 40px;
+    font-family: Verdana, fantasy;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
+    /* Essas propriedades serão aplicadas no texto */
+    
+    margin:auto; /* Centraliza o conteúdo na tela */
+    margin-top: 20px; /* Espaçamento entre a borda do elemento e a borda da página do browser (EXTERNO)*/
+    padding-top: 20px; /* Espaçamento entre a borda do elemento e a borda de deu conteúdo  (INTERNO) */
+}
+
+.flutuante{
+    position: absolute; /* Posição independente*/
+    height: 400px;
+    left:10px
+}
+
+
+.flutuante2{
+    /*Fixa o elemnto no canto inferior direito da tela */
+    position: fixed; /* Posição fixa, conforme a barra de rolagem é movida, sua posição permance a mesma*/
+    right:0px;
+    bottom:0px;
+}
+
+.textoDisplay{
+    width: 300px;
+    height:100px;
+    background-color: #EEEEEE;
+    color: green;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+/*    
+    display: none;  Deixa invisível os elementos na tela
+    display: block; Forma padrão, um elemento abaixo do outro
+    display: inline; Um elemento ao lado do outro
+*/
+    display: inline-block; /* Um elemento ao lado do outro + propriedade de block */
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+

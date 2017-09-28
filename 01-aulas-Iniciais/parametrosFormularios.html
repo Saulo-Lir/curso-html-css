@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Parâmetros Formulários</title>
+    </head>
+    
+    <body>
+        <form method='POST'>
+
+            <!-- placeholder ,
+                 autofocus (A página inicia com o cursor dentro do campo do form)
+                 size = limita o tamanho do campo de acordo com número de carcteres informado
+                 maxlength = limita o número de caracteres no campo
+                 required = obriga o campo a ser preenchido, se não o form não é enviado
+                 autocomplete = Sugere nomes quando começamos a digitar no campo
+                 autocomplete = 'off' Desativa , autocomplete = 'on' Ativa
+            -->
+
+            Usuário:<br/>
+            <input type='text' name='usuario' placeholder='Nome' autofocus size='50' maxlength='10' required autocomplete='off'/><br/><br/>
+            
+            Senha:<br/>
+            <input type='password' name='senha' placeholder='Senha'/><br/><br/>
+            
+            <input type='submit' value='Enviar'/>
+            
+        </form>
+       
+    </body>
+   
+</html>

@@ -1,0 +1,129 @@
+
+*{ /* Aplica a todos os elementos do site */
+    font-family: verdana, arial;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.topo{
+   height: 50px;
+   background-color: #353535;
+}
+
+.topoInterior{  /* Será um retângulo invisivel com limite de 1000px ue será o padrão do site */
+    width: 1000px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.logoMarca{
+    float:left;
+    font-size:24px;
+    line-height: 50px; /* Altura da linha (Vai centralizar o texto) */
+}
+
+.menu{
+    float:right;
+}
+
+.menu ul,   /* Aplica a propriedade nas duas tags */
+.menu li{  
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.menu li{
+    float: left;  /* Todos os itens da lista irão ficar ao lado do outro */
+    padding-left:10px; /* Espaçamento à esquerda entre os nomes */
+    padding-right:10px; /* Espaçamento à direita entre os nomes */
+    line-height: 50px;
+    font-size:14px;
+    cursor:pointer; /* Indica que o elemento se trata de um link */
+}
+
+.menu li:hover{
+    background-color: #3480c1;
+}
+
+.banner{
+    height: 300px;
+    background-color: #347aba;
+}
+
+.bannerInterior{
+    width: 1000px;
+    margin: auto;
+}
+
+.bannerEsquerdo{
+    float:left;
+}
+
+.bannerDireito{
+    float:right;
+}
+
+.bannerDireito img{
+    width: 450px;
+    height: 260px;
+    margin-right: 50px;
+}
+
+.frase1{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top:60px;
+}
+
+.frase2{
+    font-size: 20px;
+    color:#FFFFFF;
+}
+
+.botao{
+    background-color: #FFC001;
+    width: 282px;
+    height: 56px;
+    font-size:20px;
+    text-align: center; /* Alinha  verticalmente */
+    line-height: 56px; /* Alinha horizontalmente quando colocado o mesmo tamanho da altura da div */
+    margin-top: 20px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.conteudo{
+    
+}
+
+.conteudoInterno{
+    width: 1000px;
+    margin:auto;
+}
+
+.produtos{
+    height: 90px;
+    font-size:20px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.fotosProdutos img{
+    width: 240px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.rodape{
+    background-color: #347ABA;
+    height: 50px;
+    text-align:center;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+

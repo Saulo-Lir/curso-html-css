@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.sombra{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: auto;
+    margin-top:100px;
+    box-shadow: 20px 20px 5px #888888; /* Posição Horizontal,Posição Vertical, Intensidade da sombra, Cor da sombra */
+}
+
+.sombraTexto{
+    color: red;
+    text-shadow: -10px -10px 2px #888888;
+    text-align: center;
+}

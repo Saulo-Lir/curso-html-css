@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.exemplo{
+    width:150px;
+    min-height: 200px;
+    border: 1px solid #000;
+    word-wrap: break-word; /* Possui os parametros: normal, break-word */
+    /* É usado para quebrar palavras grandes dentro dos elementos /*
+}

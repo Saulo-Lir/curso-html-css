@@ -1,0 +1,44 @@
+<html>
+    <!-- Conteúdo do Cabeçalho -->
+    <!-- 6 tags principais -->
+    
+    <head>
+        <title>Aula html</title>
+       <link href="estilo.css" rel="stylesheet" /> <!-- Inserindo o arquivo css -->
+        <script></script> <!-- Carrega arquivos externos, na maioria javascript -->
+        <style></style> <!-- Insere código CSS -->
+        <meta/> <!-- Metadados: Define características comportamentais da página-->
+        <base href='http://www.meusite.com.br'/> <!-- Especifica qual endereço meu site está localizado -->
+		
+		
+		<!-- Configurar o site para poder ser visualizado por dispositivos móveis (celular, tablet, etc)
+		
+		viewport = visão portátil, móvel
+		content='width=device-width = indica que a largura do conteúdo da página será igual à largura do dispositivo
+		user-scalable=no = Indica que o usuário não poderá dar um zoom na página através de seu dispositivo
+		
+		-->
+		<meta id='viewport' name='viewport' content='width=device-width, user-scalable=no' />
+		
+    </head>
+    
+    <body>
+        <!-- Baixar um arquivo em um link (Não exibe na página, apenas baixa) -->
+        
+        <a href='fotos/web.jpg' download>Baixar</a> <!-- Adiciona o atributo download -->
+        
+        <br/><br/><br/>
+        
+        <!-- iframe -->
+        
+        <iframe frameborder='0' src='https://pt.wikipedia.org/wiki/Baruch_Espinoza' width='500' height='1000'></iframe>
+        
+        <br/><br/><br/>
+        
+        <!-- onclick : Os parâmetros são feitos em javascript -->
+		<img src="http://www.google.com.br/google.jpg" onclick="alert('Clicou neh safadinho...')"/>
+        
+        
+    </body>
+    
+</html>

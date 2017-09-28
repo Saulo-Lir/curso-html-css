@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.teste{
+    width:600px;
+    height:300px;
+    background-color:green;
+}
+
+/* tag media */
+
+@media only screen and (max-width: 500px){ /* Se a largura máxima da tela/monitor for 500px,
+                                            * aplica as propriedades informadas dentro das {} */
+    .teste{
+        background-color: red;
+    }
+}
+
+/*
+@media only screen and (min-width: 200px) and (max-width: 600px){ /* Quando o mínimo da tela for 200px e o máximo 600px, a largura
+                                                                   * da div diminui para 200px 
+    .teste{
+        width:200px;
+    }
+}
+*/

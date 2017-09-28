@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+
+.degrade{
+    width: 500px;
+    height: 200px;
+
+    background:blue; /* Caso o degradê não funcione, será usado esse background de backup */
+    background: linear-gradient(45deg,white, blue); /* Sintaxe padrão (Direção em graus, cores). Podem ser adcionadas quantas cores quiser */
+    background: -moz-linear-gradient(45deg,white, blue); /* Previne bugs no navegador mozila firefox */
+    background: -o-linear-gradient(45deg,white, blue); /* Previne bugs no navegador opera */
+    background: -webkit-linear-gradient(45deg,white, blue); /*Previne bugs no navegador safari */
+}

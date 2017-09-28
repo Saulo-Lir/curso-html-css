@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.transicao{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 1s linear; /* all: Aplica a transição a qualquer
+                      * tipo de propriedade que for mudada
+                      * (background, width, height)
+                      * linear: A transição começa e termina na mesma
+                      * velocidade*/
+}
+
+
+.transicao:hover{
+    border-radius: 75px;
+    background-color: green;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 1s linear;
+}
+
+a:hover{
+    color: #FF0000;
+}
+
+
