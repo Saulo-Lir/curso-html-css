@@ -32,6 +32,16 @@ function mudarSlide(pos){
      document.getElementsByClassName("slideshow-area")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 }
 
+function exibeMenu(){
+    var menu = document.getElementById("menu");
+    
+    if(menu.style.display == "none" || menu.style.display == ""){
+        menu.style.display = "block";
+        
+    }else{
+        menu.style.display = "none";
+    }
+}
 
 
 

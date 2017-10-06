@@ -370,6 +370,11 @@ body{
 
 /* Css do lado direito do site */
 
+.menu-mobile{
+    display: none;
+}
+
+
 /* Adicionando a responsividade */
 
 /* Primeira Tela Reduzida*/
@@ -472,8 +477,29 @@ body{
         margin: auto;
     }
     
-    .menuint{
+    .menu ul{
+        position: absolute;
+        background-color: red;
+        z-index: 10; /* Deixa o elemento acima dos outros elementos float */
         display: none;
+    }
+    
+    .menu li{
+        float: none;
+        height: auto;
+    }
+    
+    .menu li img{
+        display: none;
+    }
+    
+    .menu-mobile{
+        display: block;
+    }
+    
+    .submenu{
+        position: relative;
+        display: block;
     }
     
     .ultimas-noticias{
