@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset='UTF-8'/>       
+        <title>Flexbox</title>
+        <style type='text/css'>
+        /* O flexbox torna as configurações de layout flexíveis e adaptáveis */
+
+            .container{
+                display:flex; /* Ativa o flexbox */ 
+
+                /* 1) Por padrão, a organização do layout flexbox é horizontal */
+
+                /* 2) Para mudar a organização do flexbox, utilizamos a propriedade 'flex-direction' */
+
+                /* 
+                
+                flex-direction:row; É a propriedade padrão (organização em linha) 
+                flex-direction:column; A exibição do conteúdo irá ser através de colunas 
+                flex-direction:row-reverse; A exibição é em linha e da direita pra esquerda
+                flex-direction:column-reverse; A exibição é em couluna e de baixo para cima
+
+                */
+                
+                margin:10px;
+                background-color:#DDD;
+            } 
+
+            .div1{
+                flex:1; /* Representa o espaço que o elemento irá ocupar na tela */
+                background-color: #FF0000;
+                margin:10px;
+                padding:10px;
+                font-size:18px;
+            }
+
+            .div2{
+                flex:1;
+                background-color: #FF0000;
+                margin:10px;
+                padding:10px;
+                font-size:18px;
+            }
+
+            .div3{
+                flex:2; /* O tamanho desse elemento será o dobro do tamanho dos elementos anteriores */
+                background-color: #FF0000;
+                margin:10px;
+                padding:10px;
+                font-size:18px;
+            }
+
+            /* Lógica do da propriedade flex 
+            
+            Se você tem um elemento com flex 1, ele tem TODO o tamanho do elemento pai.
+            Flex 2 tem metade do tamanho do elemento pai
+            E assim sucessivamente.
+
+            Não é uma medida fixa, e sim baseada no elemento PAI daquele.
+            
+            */
+           
+        </style>
+    </head>
+    
+    <body>
+                
+        <div class='container'>
+            <div class='div1'>1</div>
+            <div class='div2'>2</div>
+            <div class='div3'>3</div>            
+        </div>
+       
+    </body>
+</html>

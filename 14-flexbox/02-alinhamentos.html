@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset='UTF-8'/>       
+        <title>Flexbox</title>
+        <style type='text/css'>        
+
+            .container{
+                display:flex;   
+
+                /*
+                flex-wrap:wrap;  Habilita a quebra de linha. O padrão é  flex-wrap:nowrap  
+                
+                Para ativarmos ao mesmo tempo o alinhamento e a quebra de linha, utilizamos a propriedade flex-flow:row wrap
+                */  
+                
+                flex-flow:column wrap; /* Aplica o flex direction e o wrap ao mesmo tempo (Atalho) */
+                
+                /* Alinhamento dos elementos dentro do container */
+                justify-content:center; /* O justify-content alinha os elementos na direção que está sendo aplicada no flex-direction. Então se o flex-direction for column, o alinhamento será na vertical .*/
+                
+                align-items: center; /* O align-items alinha os elementos na direção contrária a que está sendo aplicada no flex-direction. Então se o flex-direction for column e o align-items for center, a coluna de elementos vai ser alinhada horizontalmente no centro, pois o contrário do column (vertical) é row (horizontal)*/
+
+                /* Propriedades do justify-content 
+                
+                justify-content: flex-start; Onde o flex começar, será aplicado o alinhamento. Se o flex-direction for row, então o alinhamento será à esquerda da tela.
+
+                justify-content: flex-end; O alinhamento será aplicado onde o flex termina. Se o flex-direction for row, então o alinhamento será à direita da tela.
+
+                justify-content:space-around; Alinha os itens deixando o espaçamento entre eles igual.
+
+                justify-content:space-between; O primeiro e último itens ficam colados na tela, e os demais itens entre o primeiro e o último ficam separados entre si com espaçamento igual.
+
+                */
+
+                margin:10px;
+                background-color:#DDD;
+                height:500px;
+            } 
+
+            .container div{
+                width:200px; /* Só irão caber na tela com exatamente 200px se a propriedade flex-wrap:wrap*/  
+                height:200px;                              
+                background-color: #FF0000;
+                margin:10px;
+                padding:10px;
+                font-size:18px;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+                
+        <div class='container'>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>            
+        </div>
+       
+    </body>
+</html>
